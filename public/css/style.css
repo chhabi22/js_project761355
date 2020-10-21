@@ -1,14 +1,35 @@
 body {
     padding: 40px 10px;
-    background-color: #eee;
+    background-image: url("greenjuicee.jpg");
   }
   .listing-reg h1 {
-    text-align: center;
-    margin: 0 0 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+	font-weight: 900;
+	background-color: #009900;
+	color: #fff;
+	display: block;
+	padding: .5em;
+    
   }
   
+
+  .form-style-5{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background:#ccffcc;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
   /* css for registration form and errors*/
   .form-registration {
+    border: 2px;
     max-width: 330px;
     padding: 15px;
     margin: 0 auto;

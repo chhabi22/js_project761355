@@ -7,7 +7,7 @@ block content
     ul.my-errors
       for error in errors
         li= error.msg
-
+  <div class="form-style-5">
   form(action="." method="POST" class="form-registration")
     label(for="name") Name:
     input(
@@ -61,3 +61,4 @@ block content
       value="Submit"
       class="btn btn-lg btn-primary btn-block"
     )
+    </div>
