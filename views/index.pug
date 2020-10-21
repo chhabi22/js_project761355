@@ -7,9 +7,15 @@ block content
       tr
         th Name
         th Email
+        th Age
+        th City
+        th Whatsapp Number
       each registration in registrations
         tr
           td= registration.name
           td= registration.email
+          td= registration.age
+          td= registration.city
+          td= registration.whatsappnum
   else
     p No registrations yet :(
